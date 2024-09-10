@@ -1,5 +1,13 @@
 # Programming Assignment #2
-## NORMALIZATION PROBLEM:
+
+## Description
+This repository contains two Python-based data analytics problems:
+
+1. **Normalization Problem**: Creating a random 5x5 array, normalizing it by subtracting the mean and dividing by the standard deviation, and saving the result.
+2. **Divisible by 3 Problem**: Creating a 10x10 array containing squares of the first 100 integers, finding all elements divisible by 3, and saving the result.
+
+## Problem Breakdown
+### 1. Normalization Problem:
 Normalization is one of the most basic preprocessing techniques in
 data analytics. This involves centering and scaling process. Centering means subtracting the data from the
 mean and scaling means dividing with its standard deviation. Mathematically, normalization can be
@@ -14,7 +22,7 @@ ndarray as X_normalized.npy
 #### Expected output:
 ![image](https://github.com/user-attachments/assets/1e13869f-4686-4466-b38e-cea90629f75d)
 
-## DIVISIBLE BY 3 PROBLEM: 
+### 2. Divisible by 3 Problem
 #### Create the following 10 x 10 ndarray
 ![image](https://github.com/user-attachments/assets/f193f90e-8bca-4082-8145-de196075e6f0)
 
@@ -23,6 +31,24 @@ From this ndarray, determine all the elements that are divisible by 3. Save the 
 
 #### Expected output:
 ![image](https://github.com/user-attachments/assets/2f6a227a-434e-479b-875f-2c1d711b364d)
+
+## Getting Started
+
+### Prerequisites
+You need Python and `numpy` installed. To install `numpy`, run:
+
+```bash
+pip install numpy
+```
+
+## Running the code
+
+#### 1. Clone the repository:
+```bash
+git clone https://github.com/krlsbrre/PA2.git
+```
+#### 2. Navigate to the project directory and drag & upload the .ipynb file to Jupyter Notebook
+
 
 ## Author
 
